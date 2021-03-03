@@ -9,7 +9,7 @@ function App() {
       <hr />
       <Dinner StudentName="Hassan Khan" StudentAge="22"/>
       <hr />
-      <Dinner StudentName="Hassan Cypher" StudentAge="21" onClick="alert(1)"/>
+      <Dinner StudentName="Hassan Cypher" StudentAge="21"/>
     </div>
   );
 }
