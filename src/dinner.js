@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Dinner(){
+function Dinner(props){
     return (
-        <h1>My Name is Hassan.</h1>
+        <h1>My Name is {props.StudentName}</h1>
     )
 }
 export default Dinner;
