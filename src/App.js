@@ -4,7 +4,7 @@ import Dinner from './dinner.js'
 
 function App() {
 
-  let [count, setCount] = useState(1)
+  let [count, setCount] = useState(1);
 
   return (
     <div className="App">
