@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
 import './App.css';
-import Dinner from './dinner.js'
 
 function App() {
 
