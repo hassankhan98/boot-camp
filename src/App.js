@@ -8,6 +8,8 @@ function App() {
   return (
     <div className="App">
       <h3>Value of the count is : {count}</h3>
+      <br />
+      <button onClick={()=> alert("Xssed By Cypher")}></button>
     </div>
   );
 }
