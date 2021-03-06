@@ -16,7 +16,7 @@ function App() {
       <br />
       <button onClick={()=> setCount(count + 1)}>+</button>
       <button onClick={()=> setCount(count - 1)}>-</button>
-      
+      <h1 onMouseMove={()=> prompt(document.domain)}>hassan</h1>
     </div>
   );
 }
