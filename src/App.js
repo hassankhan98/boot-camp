@@ -1,15 +1,14 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './App.css';
 import Dinner from './dinner.js'
 
 function App() {
+
+  let [count, setCount] = useState(1)
+
   return (
     <div className="App">
-      <Dinner StudentName="Hassan Tanoli" StudentAge="23"/>
-      <hr />
-      <Dinner StudentName="Hassan Khan" StudentAge="22"/>
-      <hr />
-      <Dinner StudentName="Hassan Cypher" StudentAge="21"/>
+      <h3>Value of the count is : {count}</h3>
     </div>
   );
 }
